@@ -35,7 +35,7 @@ getgenv().Xyula = {
         }
     },
     ['Flags'] ={
-        ["Unlock On KO"] = false, 
+        ["Unlock On KO"] = true, 
         ["Unlock Outside FOV"] = false, 
         ["Unlock Behind Wall"] = false, 
     },
@@ -125,11 +125,11 @@ getgenv().Xyula = {
     },
     ["Options"] = {
         ["Intro"] = true, 
-        ["Allow Notifications"] = true, 
+        ["Allow Notifications"] = false, 
         ["Notifcation Type"] = "Akali", -- // Akali, Roblox, xaxa
         ["Notifcation Duration"] = 3, 
-        ["Disable Seats"] = true,   
-        ["Low Graphics"] = true, 
+        ["Disable Seats"] = false,   
+        ["Low Graphics"] = false, 
         ["Mute Boomboxes"] = true,  
     },
     ["CFrame"] = {
