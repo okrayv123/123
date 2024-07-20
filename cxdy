@@ -1,0 +1,140 @@
+getgenv().Xyula = {
+    ["Bullet Redirection"] = {
+        ["Enabled"] = true,
+        ["Mode"] = "Target", -- // FOV, Target
+        ["Target Key"] = "",
+        ["Notify"] = true, 
+        ["Prediction"] = 0.129331234,
+        ["Hit Chance"] = 100, 
+        ["Target Part"] = "HumanoidRootPart",
+        ["Target Part Offset"] = 0,
+        ["Nearest Part To Cursor"] = false, 
+        ["Closest Point"] = false, 
+        ["Anti Ground Shots"] = false,
+    },
+    ["Aim Assist"] = {
+        ["Enabled"] = true, 
+        ["Mode"] = "Target_toggle", -- // (FOV, Target_toggle, Target_hold)
+        ["Target Key"] = "Z", 
+        ["Notify"] = false, 
+        ["Prediction"] = 0.1116,
+        ["Target Part"] = "HumanoidRootPart", -- // (Head, UpperTorso, HumanoidRootPart, LowerTorso)
+        ["Target Part Offset"] = 0, 
+        ["Nearest Part To Cursor"] = false,  
+        ["Closest Point"] = false, 
+        ["Line"] = false,
+        ["Smoothness"] = {
+            ["Enable"] = false, -- // BROKEN
+            ["Value"] = 1.447, -- // BROKEN
+        },
+        ["Shake"] = {
+            ["Enabled"] = false,
+            ["X"] = 1, -- // 1-5
+            ["Y"] = 1, -- // 1-5
+            ["Z"] = 1, -- // 1-5
+        }
+    },
+    ['Flags'] ={
+        ["Unlock On KO"] = false, 
+        ["Unlock Outside FOV"] = false, 
+        ["Unlock Behind Wall"] = false, 
+    },
+    ["Latency"] = {
+        ["Auto Prediction"] = {
+            ["Enabled"] = false, 
+            ["Type"] = "regular", -- // regular, beta, v2, Auto ( AUTO BROKEN )
+            ["AutoPred"] = { 
+                ["Ping20"]  = 0.12746444,
+                ["Ping30"]  = 0.12746444,
+                ["Ping40"]  = 0.12746444,
+                ["Ping50"]  = 0.11243,
+                ["Ping60"]  = 0.11243,
+                ["Ping70"]  = 0.12533,
+                ["Ping80"]  = 0.169,
+                ["Ping90"]  = 0.13626,
+                ["Ping100"] = 0.13829,
+                ["Ping110"] = 0.146,
+                ["Ping120"] = 0.149,
+                ["Ping130"] = 0.151,
+                ["Ping140"] = 0.1652131,
+                ["Ping150"] = 0.125333,
+                ["Ping160"] = 0.1223333,
+                ["Ping170"] = 0.15,
+                ["Ping180"] = 0.1923111,
+                ["Ping190"] = 0.165771,
+                ["Ping200"] = 0.1746,
+            }
+        },
+    },
+    ["Checks"] = {
+        ["Visible Check"] = true, 
+        ["K.O Check"] = true, 
+        ["Crew Check"] = false, 
+        ["Friend Check"] = false,  
+        ["Distance"] = { 
+            ["Enabled"] = true,
+            ["Max Distance"] = 130, 
+        }
+    },
+    ["Resolver"] = {
+        ["Enabled"] = false, 
+        ["Method"] = "Delta", 
+        ["Keybind Enabled"] = false, 
+        ["Keybind"] = "T", 
+    },
+    ["FOV"] = { 
+        ["Bullet Redirection"] = {
+            ["Visible"] = false, 
+            ["Filled"] = false, 
+            ["Size"] = 145,
+            ["Thickness"] = 1, 
+            ["Transparency"] = 1, 
+            ["Color"] = Color3.fromRGB(0, 0, 255) 
+        },
+        ["Aim Assist"] = {
+            ["Visible"] = false, 
+            ["Filled"] = false,
+            ["Size"] = 50, 
+            ["Thickness"] = 1, 
+            ["Transparency"] = 1, 
+            ["Color"] = Color3.fromRGB(0, 0, 255) 
+        },
+    },
+    ["Blink FOV"] = {
+        ["Enabled"] = false,
+        ["Blink Key"] = Enum.KeyCode.V,
+        ["Blink Speed"] = 1.5,
+        ["ScaleFactor"] = 1,
+        ["BoxPosition"] = Vector3.new(0, 1, 0),
+    },
+    ["Airshot"] = {
+        ["Enabled"] = false, 
+        ["Jump Offset"] = -1.6, 
+        ["Aim Assist Smoothness"] = {
+            ["Enabled"] = false, -- // BROKEN
+            ["New Smoothness"] = 0.58, -- // BROKEN
+        }
+    },
+    ["Crosshair"] = {
+        ["Size"] = 2,
+        ["Length"] = 20,
+        ["Gap"] = 40,
+        ["RainbowEnabled"] = false,
+        ["RainbowSpeed"] = 1,
+        ["SpinSpeed"] = 90
+    },
+    ["Options"] = {
+        ["Intro"] = true, 
+        ["Allow Notifications"] = true, 
+        ["Notifcation Type"] = "Akali", -- // Akali, Roblox, xaxa
+        ["Notifcation Duration"] = 3, 
+        ["Disable Seats"] = true,   
+        ["Low Graphics"] = true, 
+        ["Mute Boomboxes"] = true,  
+    },
+    ["CFrame"] = {
+        ["Enabled"] = true,
+        ["Toggle"] = "C",
+    },
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/19photon/ASTRO-V1-RELEASE/main/ASTRO%20V2%20UPDATE"))()
